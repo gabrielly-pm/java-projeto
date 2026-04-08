@@ -14,11 +14,7 @@ public class Biblioteca {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        
-        System.out.println("Quantas publicacoes deseja cadastrar? ");
-        int qtd = entrada.nextInt();
-        entrada.nextLine();
-        
+       
         publicacao[] publicacoes = new publicacao[qtd];
         
         for (int i = 0; i < qtd; i++) {
